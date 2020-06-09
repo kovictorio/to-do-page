@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-do App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="title">
+        <img src="img/title2.png" alt="My To-Do List" class="title-ico" width="64" height="64">
+        <h1>Things To Do</h1>
+    </div>
+    <div class="add-cont">
+        <div class="add-bg">
+            <h2>add new to-do</h2>
+        </div>
+        <div class="intd-cont"><input type="text" id="intd" placeholder="add text ..."></div>
+        <button id="btn-tdo">
+            <div id="spin"></div>
+            <a href="#btn-tdo">Add new</a>
+        </button>
+    </div>
+
+    <div class="chk-cont">
+        <div class="chk-bg">
+            <h2>checklist</h2>
+        </div>
+        <ul class="todolist">
+            <li>This is the first of list</li>
+        </ul>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
